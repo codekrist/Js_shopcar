@@ -1,0 +1,246 @@
+.w {
+    width: 990px;
+    margin: 100px auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    cursor: pointer;
+}
+
+.cart-table-th {
+    height: 50px;
+    color: #000;
+    line-height: 50px;
+    background: rgb(238, 236, 236);
+    font-size: 12px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.cart-table-th .th-chk {
+    height: 50px;
+    width: 80px;
+    text-align: left;
+}
+
+.cart-table-th .th-detail {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.cart-table-th .th-price {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.cart-table-th .th-sum {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.cart-table-th .th-jine {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.cart-table-th .th-caozuo {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.item-content {
+    margin-top: 20px;
+    width: 990px;
+    padding: 0 20px;
+    height: 130px;
+    border: 1px solid rgb(216, 210, 210);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.item-content .td-chk {
+    margin-top: 20px;
+}
+
+.item-content .td-item {
+    margin-top: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.item-content .td-item .td-inner img {
+    max-height: 80px;
+    max-width: 80px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.item-content .td-item .item-info {
+    font-size: 12px;
+
+}
+
+.td-price {
+    margin-top: 20px;
+    height: 130px;
+    width: 150px;
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, arial;
+    text-align: center;
+}
+
+.td-amount {
+    margin-top: 25px;
+    height: 130px;
+    padding-left: 70px;
+}
+
+.td-amount .td-inner .btn {
+    display: block;
+    width: 20px;
+    height: 25px;
+    background: rgb(233, 229, 229);
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #e5e5e5;
+    color: #3c3c3c;
+    box-sizing: border-box;
+}
+
+.td-amount .td-inner .btn:hover {
+    border: 1px solid #f00;
+    box-sizing: border-box;
+}
+
+.td-amount .td-inner .inpt {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    border: 0;
+    outline: none;
+    border: 1px solid rgb(61, 59, 59);
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.item-content .td-sum {
+    width: 140px;
+    text-align: right;
+}
+
+.item-content .td-sum .td-inner {
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, arial;
+    font-size: 14px;
+    color: #f00;
+
+}
+.inptw{
+    cursor: pointer;
+}
+.item-content .td-caozuo {
+    width: 130px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+.float-bar-wrapper {
+    overflow: hidden;
+    height: 50px;
+    background: #e5e5e5;
+    box-sizing: border-box;
+}
+
+.J_SelectAll2 {
+    font-size: 12px;
+    color: #000;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.dele .dele-item{
+    float: left;
+    margin: 0 10px;
+    color: #000;
+    line-height: 50px;
+    font-size: 12px;
+}
+ .delete{
+    cursor: pointer;
+}
+.float-bar-right{
+    line-height: 50px;
+    width: 450px;
+    height: 50px;
+    font-size: 14px;
+}
+.float-bar-right  .Zj{
+    margin-right: 2px;
+}
+.float-bar-right a{
+    display: inline-block;
+    width:120px ;
+    height: 50px;
+
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    background: rgb(226, 4, 4);
+}
+.float-bar-right a:hover{
+    display: inline-block;
+    width:120px ;
+    height: 50px;
+    background: rgb(199, 4, 4);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.float-bar-right .num span{
+    color: #f00;
+    font-weight: 600;
+    font-size: 16px;
+}
+.float-bar-right .text{
+    font-weight: 600;
+    font-size: 18px;
+    color: #f00;
+}
+.inpt1{
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.inpt3{
+cursor: pointer;
+}
